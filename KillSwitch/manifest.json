@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Kill Switch",
+  "description": "Block Traffic",
+  "version": "1.1",
+  "permissions": ["proxy"],
+  "background": {
+    "service_worker": "b.js"
+  },
+  "action": {
+    "default_popup": "p.html"
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
